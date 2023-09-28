@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
-// import GraphPrim.View;
+// import GraphPrim;
 
 public class Control {
 	int[][] matrix;
@@ -284,7 +284,7 @@ public class Control {
 			for (int j = 0; j < matrix[i].length; j++) {
 				result += matrix[i][j] + "         ";
 			}
-			result += "\n\n";
+			result += "\n";
 		}
 		return result;
 	}
